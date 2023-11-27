@@ -29,7 +29,7 @@ public class Cso extends TomorHenger{
     
     @Override
     public double terfogat(){
-        double kulsohenger = getMagassag()*Math.PI*Math.pow(getSugar(), 2);
+        double kulsohenger = super.terfogat();
         double belsohenger = getMagassag()*Math.PI*Math.pow(getSugar()-falvastagsag, 2);
         return kulsohenger - belsohenger;
     }

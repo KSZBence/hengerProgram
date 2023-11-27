@@ -35,7 +35,13 @@ public class HengerProgram {
     }
     
     public double csovekSulya(){
-        return 1.0;
+        double osszsuly = 0;
+        for (MertaniHenger mertaniHenger : hengerek) {
+            if (mertaniHenger instanceof TomorHenger) {
+                osszsuly += ((TomorHenger) mertaniHenger).Suly();
+            }
+        }
+        return osszsuly;
     }
     
     private ArrayList<MertaniHenger> lista(){
