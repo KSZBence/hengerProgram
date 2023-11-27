@@ -8,11 +8,11 @@ package hengerprogram;
  *
  * @author Kun-SzékelyBence(SZF
  */
-public class Henger {
+public class MertaniHenger {
     private static int hengerDb;
     private double sugar, magassag;
 
-    public Henger(double sugar, double magassag) {
+    public MertaniHenger(double sugar, double magassag) {
         this.sugar = sugar;
         this.magassag = magassag;
     }
@@ -30,7 +30,7 @@ public class Henger {
     }
     
     public double terfogat(){
-        return 1.0;
+        return Math.PI*Math.pow(sugar, 2)*magassag;
     }
 
     @Override

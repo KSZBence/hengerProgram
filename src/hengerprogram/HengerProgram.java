@@ -13,7 +13,7 @@ public class HengerProgram {
     /**
      * @param args the command line arguments
      */
-    private Henger[] hengerek;
+    private MertaniHenger[] hengerek;
     
     public static void main(String[] args) {
         
@@ -31,7 +31,7 @@ public class HengerProgram {
         return 1.0;
     }
     
-    private Henger[] lista(){
+    private MertaniHenger[] lista(){
         return hengerek;
     }
     

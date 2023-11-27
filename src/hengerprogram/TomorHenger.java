@@ -8,7 +8,7 @@ package hengerprogram;
  *
  * @author Kun-SzékelyBence(SZF
  */
-public class TomorHenger extends Henger{
+public class TomorHenger extends MertaniHenger{
     private double fajsuly;
 
     public TomorHenger(double sugar, double magassag) {
