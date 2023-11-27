@@ -15,6 +15,7 @@ public class MertaniHenger {
     public MertaniHenger(double sugar, double magassag) {
         this.sugar = sugar;
         this.magassag = magassag;
+        hengerDb++;
     }
 
     public static int getHengerDb() {
